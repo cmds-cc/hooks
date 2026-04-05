@@ -1,0 +1,37 @@
+{
+  "name": "@cmds-cc/hooks",
+  "version": "1.0.0",
+  "description": "Install Claude Code hooks from any GitHub repo",
+  "license": "MIT",
+  "author": "Jeremy Worden",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cmds-cc/hooks"
+  },
+  "homepage": "https://cmds.cc/hooks",
+  "bin": {
+    "cmds-hooks": "./bin/cc-hooks.js"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "claude-code",
+    "hooks",
+    "cli",
+    "safety",
+    "guardrails",
+    "ai-agents",
+    "cmds-cc"
+  ],
+  "files": [
+    "bin",
+    "lib",
+    "examples"
+  ],
+  "dependencies": {
+    "commander": "^14.0.0",
+    "@inquirer/prompts": "^7.0.0"
+  }
+}

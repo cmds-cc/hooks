@@ -1,6 +1,6 @@
 {
   "name": "@cmds-cc/hooks",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Install Claude Code hooks from any GitHub repo",
   "license": "MIT",
   "author": "Jeremy Worden",
@@ -27,8 +27,7 @@
   ],
   "files": [
     "bin",
-    "lib",
-    "examples"
+    "lib"
   ],
   "dependencies": {
     "commander": "^14.0.0",

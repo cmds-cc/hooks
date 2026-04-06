@@ -18,16 +18,16 @@ npx @cmds-cc/hooks add sieteunoseis/spok-api
 
 ```bash
 # Essential safety guardrails
-npx @cmds-cc/hooks add sieteunoseis/hooks.automate.builders/hooks/safety-essentials
+npx @cmds-cc/hooks add cmds-cc/cmds.cc/hooks/safety-essentials
 
 # Cloud protection (AWS, GCP, Azure)
-npx @cmds-cc/hooks add sieteunoseis/hooks.automate.builders/hooks/cloud-safety
+npx @cmds-cc/hooks add cmds-cc/cmds.cc/hooks/cloud-safety
 
 # Kubernetes safety
-npx @cmds-cc/hooks add sieteunoseis/hooks.automate.builders/hooks/kubernetes-safety
+npx @cmds-cc/hooks add cmds-cc/cmds.cc/hooks/kubernetes-safety
 
 # Cisco UC CLI protection
-npx @cmds-cc/hooks add sieteunoseis/hooks.automate.builders/hooks/cisco-cli-safety
+npx @cmds-cc/hooks add cmds-cc/cmds.cc/hooks/cisco-cli-safety
 ```
 
 Browse all collections at [cmds.cc/hooks](https://cmds.cc/hooks).
